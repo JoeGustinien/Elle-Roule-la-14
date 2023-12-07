@@ -12,6 +12,15 @@ label {
     margin-right: 10px;
 }
 
+::placeholder {
+    text-align: center;
+  }
+
+input{
+    width: 5rem; /* Ajustez la largeur selon vos besoins */
+  }
+
+
 button {
     margin: 1rem;
     padding: 8px 16px;
