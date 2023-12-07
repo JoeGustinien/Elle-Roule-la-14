@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérification d'ouverture de la ligne de métro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>🚇 Elle roule, elle roule la 14 ?🚇</h1>
+
+    <h2 id="resultatAujourdhui"></h2>
+
+    <label for="dateInput">Et ce jour là ? :</label>
+    <input type="text" id="dateInput" placeholder="Sélectionnez une date">
+    <button onclick="verifierOuverture()">Vérifier</button>
+
+    <div id="resultat"></div>
+
+    <script src="script.js"></script>
+
+    <script>
+        flatpickr("#dateInput", {
+            dateFormat: "Y-m-d", // Format de date ISO
+            minDate: "today", // Sélection à partir d'aujourd'hui
+            locale: {
+                weekdays: {
+                    shorthand: ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'],
+                    longhand: ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi']
+                },
+                months: {
+                    shorthand: ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc'],
+                    longhand: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre']
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
