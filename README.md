@@ -1,5 +1,5 @@
 # Elle-Roule-la-14
-Un page web permettant de savoir si la ligne 14 est ouverte, au jour J et à une date demandée par la suite. 
+Un page web permettant de savoir si la ligne 14 est ouverte, au jour J et à une date demandée par la suite. https://joegustinien.github.io/Elle-Roule-la-14/
 
 # L'idée
 Ces derniers mois et plus encore pour les mois à venir la ligne 14 va etre souvent fermée ou à l'arret plus tôt, j'ai eu l'idée d'avoir cette petite page que je peux regarder directement pour savoir quel est le statut de la ligne de façon dynamique mais assez simple. 
@@ -18,3 +18,5 @@ Plusieurs étapes dans la création à proprement parler :
 
 # Conclusion 
 Un petit projet simple surtout fait pour aller "au bout d'une idée" mais aussi qui reflete bien ma vision du code et plus généralement du numerique, un outil au service des utilisateurs pour aller au plus simple donc au plus efficace. 
+
+Dispo sur https://joegustinien.github.io/Elle-Roule-la-14/
